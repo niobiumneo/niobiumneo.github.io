@@ -1,14 +1,15 @@
 <!DOCTYPE HTML>
 <html>
-  <head>
+
+<head>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-SM8LF8RS7K"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-      gtag('config', 'G-SM8LF8RS7K');
+        gtag('config', 'G-SM8LF8RS7K');
     </script>
 
     <!-- Title -->
@@ -27,521 +28,609 @@
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-    </style>
-  </head>
+        @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
-  <body id="body">
+    </style>
+</head>
+
+<body id="body">
 
     <div id="main">
-      <div id="intro">
-        <div id="intro-text">
-          <h1>Allen Z. Ren</h1>
-          <p>
-            Hi there! I'm a PhD student at <a href="https://www.princeton.edu/">Princeton</a>, where I work with <a href="https://irom-lab.princeton.edu/majumdar/">Ani Majumdar</a> on robotics. 
-            <br><br>
-            <!-- I teach robots to perform tasks effectively, safely, and with confidence in novel environments, especially those in the real world with humans around. -->
-            I design algorithms and general frameworks that enable robots to learn and adapt to new environments and tasks, as well as build trust between humans and robots.
-            <br>
-            <div id="more-interest" style="display: None">
-              <br>
-              <p>
-                My research aims to improve generalization performance and safety of robotic systems around humans and allow their fast adaptation in new, potentially out-of-distribution environments and tasks. Currently I am particularly interested in:
+        <div id="intro">
+            <div id="intro-text">
+                <h1>Allen Z. Ren</h1>
+                <p>
+                    Hi there! I'm a PhD student at <a href="https://www.princeton.edu/">Princeton</a>, where I work with
+                    <a href="https://irom-lab.princeton.edu/majumdar/">Ani Majumdar</a> on robotics.
+                    <br><br>
+                    <!-- I teach robots to perform tasks effectively, safely, and with confidence in novel environments, especially those in the real world with humans around. -->
+                    I design algorithms that enable robots to learn and adapt to new environments and tasks, as well as build trust between humans and robots.
+                    <br>
+                <div id="more-interest" style="display: None">
+                    <br>
+                    <p>
+                        My research aims to improve generalization performance and safety of robotic systems around
+                        humans and allow their fast adaptation in new, potentially out-of-distribution environments and
+                        tasks. Currently I am particularly interested in:
+                        <br>
+                        (1) identifying the simulation setup for optimal task performance in <a
+                            href="https://arxiv.org/abs/2302.04903">sim-to-real transfer</a>
+                        <br>
+                        (2) quantifying uncertainty and providing <a
+                            href="https://sites.google.com/princeton.edu/sim-to-lab-to-real/home">generalization
+                            guarantees</a> for end-to-end neural network policy and LLM-based task planner.
+                        <br><br>
+                        Please reach out if you find them interesting!
+                    </p>
+                </div>
                 <br>
-                (1) identifying the simulation setup for optimal task performance in <a href="https://arxiv.org/abs/2302.04903">sim-to-real transfer</a>
-                <br>
-                (2) quantifying uncertainty and providing <a href="https://sites.google.com/princeton.edu/sim-to-lab-to-real/home">generalization guarantees</a> for end-to-end neural network policy and LLM-based task planner.
+                <a href="javascript:toggle_interest()">Research Interests</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <!-- <a href="https://github.com/andyzeng">Github</a>&nbsp;&nbsp;&nbsp;&nbsp; -->
+                <a href="https://scholar.google.com/citations?user=mgMzkYMAAAAJ&hl=en">G.
+                    Scholar</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://www.linkedin.com/in/allenzren/">LinkedIn</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://twitter.com/allenzren">Twitter</a>
                 <br><br>
-                Please reach out if you find them interesting!
-              </p>
+                allen dot ren at princeton dot edu
+                <br><br>
+                </p>
             </div>
-            <br>
-            <a href="javascript:toggle_interest()">Research Interests</a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <!-- <a href="https://github.com/andyzeng">Github</a>&nbsp;&nbsp;&nbsp;&nbsp; -->
-            <a href="https://scholar.google.com/citations?user=mgMzkYMAAAAJ&hl=en">G. Scholar</a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="https://www.linkedin.com/in/allenzren/">LinkedIn</a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="https://twitter.com/allenzren">Twitter</a>
-            <br><br>
-            allen dot ren at princeton dot edu
-            <br><br>
-          </p>
+            <div id="intro-image">
+                <img src="images/profile.png">
+            </div>
         </div>
-        <div id="intro-image">
-          <img src="images/profile.png">
+
+        <div id="filters" class="button-group">
+            <!-- <button class="button" data-filter="*">Show All</button> -->
+            <button class="button is-checked" data-filter=".highlight">Highlights</button>
+            <button class="button" data-filter=".publication">Research</button>
+            <button class="button" data-filter=".talk">Talks</button>
+            <button class="button" data-filter=".misc">Misc</button>
+            <button class="button" data-filter=".personal">Personal</button>
         </div>
-      </div>
 
-      <div id="filters" class="button-group">
-        <!-- <button class="button" data-filter="*">Show All</button> -->
-        <button class="button is-checked" data-filter=".highlight">Highlights</button>
-        <button class="button" data-filter=".publication">Research</button>
-        <button class="button" data-filter=".talk">Talks</button>
-        <button class="button" data-filter=".misc">Misc</button>
-        <button class="button" data-filter=".personal">Personal</button>
-      </div>
+        <div class="grid">
 
-      <div class="grid">
-
-        <!-- Highlights -->
-        <!-- <div class="list-item highlight description" data-category="highlight">
+            <!-- Highlights -->
+            <!-- <div class="list-item highlight description" data-category="highlight">
           Some recent highlights from our research:
         </div> -->
 
-        <!-- Preview Videos -->
-        <div class="list-item highlight previews" data-category="highlight">
+            <!-- Preview Videos -->
+            <div class="list-item highlight previews" data-category="highlight">
 
-          <a href="https://arxiv.org/pdf/2302.04903.pdf"><video class="preview1" playsinline="" muted="" autoplay="" loop=""><source src="images/video-adaptsim-scoop.mp4" type="video/mp4"></video></a>
+                <a href="https://arxiv.org/pdf/2302.04903.pdf"><video class="preview1" playsinline="" muted=""
+                        autoplay="" loop="">
+                        <source src="images/video-adaptsim-scoop.mp4" type="video/mp4">
+                    </video></a>
 
-          <a href="https://sites.google.com/princeton.edu/sim-to-lab-to-real/home"><video class="preview2" playsinline="" muted="" autoplay="" loop=""><source src="images/video-sim2lab2real-kitchen.mp4" type="video/mp4"></video></a>
+                <a href="https://sites.google.com/princeton.edu/sim-to-lab-to-real/home"><video class="preview2"
+                        playsinline="" muted="" autoplay="" loop="">
+                        <source src="images/video-sim2lab2real-kitchen.mp4" type="video/mp4">
+                    </video></a>
 
-          <video class="preview3" playsinline="" muted="" autoplay="" loop=""><source src="images/video-fault-drone.mp4" type="video/mp4"></video>
+                <video class="preview3" playsinline="" muted="" autoplay="" loop="">
+                    <source src="images/video-fault-drone.mp4" type="video/mp4">
+                </video>
 
-        </div>
+            </div>
 
-        <!-- Truncated Set of Highlights (Shown by Default) -->
-        <div id="main-highlights">
+            <!-- Truncated Set of Highlights (Shown by Default) -->
+            <div id="main-highlights">
 
-          <div class="list-item highlight" data-category="highlight">
-            <b>Quanta Magazine</b> article <a href="https://www.quantamagazine.org/machines-learn-better-if-we-teach-them-the-basics-20230201/">"Machines Learn Better if We Teach Them the Basics"</a>
-          </div>
+                <div class="list-item highlight" data-category="highlight">
+                    <b>Quanta Magazine</b> article <a
+                        href="https://www.quantamagazine.org/machines-learn-better-if-we-teach-them-the-basics-20230201/">"Machines
+                        Learn Better if We Teach Them the Basics"</a>
+                </div>
 
-          <div class="list-item highlight" data-category="highlight">
-            <b>Princeton News</b> article <a href="https://engineering.princeton.edu/news/2020/11/17/machine-learning-guarantees-robots-performance-unknown-territory">"Machine learning guarantees robots' performance in unknown territory"</a>
-          </div>
+                <div class="list-item highlight" data-category="highlight">
+                    <b>Princeton News</b> article <a
+                        href="https://engineering.princeton.edu/news/2020/11/17/machine-learning-guarantees-robots-performance-unknown-territory">"Machine
+                        learning guarantees robots' performance in unknown territory"</a>
+                </div>
 
-          <div class="list-item highlight" data-category="highlight">
-            <b>Princeton News</b> article <a href="https://engineering.princeton.edu/news/2022/12/21/words-prove-their-worth-teaching-tools-robots#:~:text=Exploring%20a%20new%20way%20to,using%20a%20variety%20of%20tools.">"Words prove their worth as teaching tools for robots"</a>
-          </div>
+                <div class="list-item highlight" data-category="highlight">
+                    <b>Princeton News</b> article <a
+                        href="https://engineering.princeton.edu/news/2022/12/21/words-prove-their-worth-teaching-tools-robots#:~:text=Exploring%20a%20new%20way%20to,using%20a%20variety%20of%20tools.">"Words
+                        prove their worth as teaching tools for robots"</a>
+                </div>
 
-        </div>
+            </div>
 
-        <!-- All Archived Highlights (Click to Show) -->
-        <div id="more-highlights" style="display: None">
+            <!-- All Archived Highlights (Click to Show) -->
+            <div id="more-highlights" style="display: None">
 
-          <!-- 2023 -->
-          <div class="list-item highlight" data-category="highlight">
-            <p class="date">2023</p>Quanta Magazine article <a href="https://www.quantamagazine.org/machines-learn-better-if-we-teach-them-the-basics-20230201">"Machines Learn Better if We Teach Them the Basics"</a>
-          </div>
+                <!-- 2023 -->
+                <div class="list-item highlight" data-category="highlight">
+                    <p class="date">2023</p>Quanta Magazine article <a
+                        href="https://www.quantamagazine.org/machines-learn-better-if-we-teach-them-the-basics-20230201">"Machines
+                        Learn Better if We Teach Them the Basics"</a>
+                </div>
 
-          <!-- 2022 -->
-          <div class="list-item highlight" data-category="highlight">
-            <p class="date">2022</p>Summer research intern at <a href="https://www.tri.global/our-work/robotics">Toyota Research Institute</a> with <a href="https://hongkai-dai.github.io/">Hongkai Dai</a> and <a href="http://www.benburchfiel.com/">Ben Burchfiel</a>
-          </div>
+                <!-- 2022 -->
+                <div class="list-item highlight" data-category="highlight">
+                    <p class="date">2022</p>Summer research intern at <a
+                        href="https://www.tri.global/our-work/robotics">Toyota Research Institute</a> with <a
+                        href="https://hongkai-dai.github.io/">Hongkai Dai</a> and <a
+                        href="http://www.benburchfiel.com/">Ben Burchfiel</a>
+                </div>
 
-          <div class="list-item highlight" data-category="highlight">
-            <p class="date"></p>Princeton News article <a href="https://engineering.princeton.edu/news/2022/01/25/small-efficient-sensors-help-drones-fly-high-winds">"Small, efficient sensors help drones fly in high winds"</a>
-          </div>
+                <div class="list-item highlight" data-category="highlight">
+                    <p class="date"></p>Princeton News article <a
+                        href="https://engineering.princeton.edu/news/2022/01/25/small-efficient-sensors-help-drones-fly-high-winds">"Small,
+                        efficient sensors help drones fly in high winds"</a>
+                </div>
 
-          <div class="list-item highlight" data-category="highlight">
-            <p class="date"></p>Princeton News article <a href="https://engineering.princeton.edu/news/2022/12/21/words-prove-their-worth-teaching-tools-robots#:~:text=Exploring%20a%20new%20way%20to,using%20a%20variety%20of%20tools.">"Words prove their worth as teaching tools for robots"</a>
-          </div>
+                <div class="list-item highlight" data-category="highlight">
+                    <p class="date"></p>Princeton News article <a
+                        href="https://engineering.princeton.edu/news/2022/12/21/words-prove-their-worth-teaching-tools-robots#:~:text=Exploring%20a%20new%20way%20to,using%20a%20variety%20of%20tools.">"Words
+                        prove their worth as teaching tools for robots"</a>
+                </div>
 
-          <div class="list-item highlight" data-category="highlight">
-            <p class="date"></p>Harari Fellowship for excellence in graduate studies, Princeton University</a>
-          </div>
+                <div class="list-item highlight" data-category="highlight">
+                    <p class="date"></p>Harari Fellowship for excellence in graduate studies, Princeton University</a>
+                </div>
 
-          <div class="list-item highlight" data-category="highlight">
-            <p class="date"></p>Crocco Prize for outstanding assistantship in instruction, Princeton University</a>
-          </div>
+                <div class="list-item highlight" data-category="highlight">
+                    <p class="date"></p>Crocco Prize for outstanding assistantship in instruction, Princeton
+                    University</a>
+                </div>
 
-          <!-- 2020 -->
-          <div class="list-item highlight" data-category="highlight">
-            <p class="date">2020</p>Princeton News article <a href="https://engineering.princeton.edu/news/2020/11/17/machine-learning-guarantees-robots-performance-unknown-territory">"Machine learning guarantees robots' performance in unknown territory"</a>
-          </div>
+                <!-- 2020 -->
+                <div class="list-item highlight" data-category="highlight">
+                    <p class="date">2020</p>Princeton News article <a
+                        href="https://engineering.princeton.edu/news/2020/11/17/machine-learning-guarantees-robots-performance-unknown-territory">"Machine
+                        learning guarantees robots' performance in unknown territory"</a>
+                </div>
 
-          <!-- 2019 -->
-          <div class="list-item highlight" data-category="highlight">
-            <p class="date">2019</p>B.S. in Mechanical Engineering, Minor in Mathematics, M.S.E. in Robotics, Johns Hopkins University</a>
-          </div>
-      
-          <div class="list-item highlight" data-category="highlight">
-            <p class="date"></p>Graduated with Robert James F. Bell Award, George Gerstmyer Award, ASME Best Senior Design Project Award</a>
-          </div>
+                <!-- 2019 -->
+                <div class="list-item highlight" data-category="highlight">
+                    <p class="date">2019</p>B.S. in Mechanical Engineering, Minor in Mathematics, M.S.E. in Robotics,
+                    Johns Hopkins University</a>
+                </div>
 
-          <div class="list-item highlight" data-category="highlight">
-            <p class="date">2020</p>JHU News article <a href="https://hub.jhu.edu/magazine/2019/summer/guitar-injury-smartguitar-serap-bastepe-gray/">"Rock on - Just not too hard"</a> covering the <a href="https://www.youtube.com/watch?v=rxqQmImvoIw">Smart Guitar</a>
-          </div>
-          
-          <!-- 2018 -->
-          <div class="list-item highlight" data-category="highlight">
-            <p class="date">2018</p><a href="https://riss.ri.cmu.edu/">Robotics Institute Summer Scholars</a>, Carnegie Mellon University</a>
-          </div>
+                <div class="list-item highlight" data-category="highlight">
+                    <p class="date"></p>Graduated with Robert James F. Bell Award, George Gerstmyer Award, ASME Best
+                    Senior Design Project Award</a>
+                </div>
 
-        </div>
+                <div class="list-item highlight" data-category="highlight">
+                    <p class="date">2020</p>JHU News article <a
+                        href="https://hub.jhu.edu/magazine/2019/summer/guitar-injury-smartguitar-serap-bastepe-gray/">"Rock
+                        on - Just not too hard"</a> covering the <a
+                        href="https://www.youtube.com/watch?v=rxqQmImvoIw">Smart Guitar</a>
+                </div>
 
-        <!-- Toggle highlights button. -->
-        <div class="list-item highlight toggle-button" data-category="highlight">
-          <a id="toggle_highlights_button" href="javascript:toggle_highlights()">Show more</a>
-        </div>
+                <!-- 2018 -->
+                <div class="list-item highlight" data-category="highlight">
+                    <p class="date">2018</p><a href="https://riss.ri.cmu.edu/">Robotics Institute Summer Scholars</a>,
+                    Carnegie Mellon University</a>
+                </div>
+
+            </div>
+
+            <!-- Toggle highlights button. -->
+            <div class="list-item highlight toggle-button" data-category="highlight">
+                <a id="toggle_highlights_button" href="javascript:toggle_highlights()">Show more</a>
+            </div>
 
 
-        <!-- Publications -->
-        <div class="list-item publication" data-category="publication">
-          <a href="https://www.youtube.com/watch?v=p2msMCOFDDg" class="thumbnail"><img src="images/23adaptsim.png" alt="" /></a>
-          <div class="project-description">
-            <h3><a href="https://arxiv.org/pdf/2302.04903.pdf">AdaptSim: Task-Driven Simulation Adaptation for Sim-to-Real Transfer</a></h3>
-            <p>
-              Allen Z. Ren, Hongkai Dai, Benjamin Burchfiel, Anirudha Majumdar
-                <br>
-                <i>Under review</i><br>
-                <a href="https://arxiv.org/pdf/2302.04903.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                <a href="https://www.youtube.com/watch?v=p2msMCOFDDg">Video</a>
-            </p>
-          </div>
-        </div>
+            <!-- Publications -->
+            <div class="list-item publication" data-category="publication">
+                <a href="https://www.youtube.com/watch?v=p2msMCOFDDg" class="thumbnail"><img src="images/23adaptsim.png"
+                        alt="" /></a>
+                <div class="project-description">
+                    <h3><a href="https://arxiv.org/pdf/2302.04903.pdf">AdaptSim: Task-Driven Simulation Adaptation for
+                            Sim-to-Real Transfer</a></h3>
+                    <p>
+                        Allen Z. Ren, Hongkai Dai, Benjamin Burchfiel, Anirudha Majumdar
+                        <br>
+                        <i>Under review</i><br>
+                        <a href="https://arxiv.org/pdf/2302.04903.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                        <a href="https://www.youtube.com/watch?v=p2msMCOFDDg">Video</a>
+                    </p>
+                </div>
+            </div>
 
-        <div class="list-item publication" data-category="publication">
-          <!-- <a href="https://sites.google.com/princeton.edu/sim-to-lab-to-real/home" class="thumbnail"><img src="images/22safe.png" alt="" /></a> -->
-          <a href="https://sites.google.com/princeton.edu/sim-to-lab-to-real/home" class="thumbnail">
-            <video playsinline="" muted="" autoplay="" loop="" width="180px">
-              <source src="images/video-sim2lab2real-kitchen.mp4" type="video/mp4">
-            </video>
-          </a>
-          <div class="project-description">
-            <h3><a href="https://sites.google.com/princeton.edu/sim-to-lab-to-real/home">Sim-to-Lab-to-Real: Safe Reinforcement Learning with Shielding and Generalization Guarantees</a></h3>
-            <p>
-              Kai-Chieh Hsu*, Allen Z. Ren*, Duy Phuong Nguyen, Anirudha Majumdar**, and Jaime F. Fisac**<br>*Equal contribution in alphabetical order; **Equal advising
-                <br>
-                <i>Artificial Intelligence Journal (AIJ), October 2022</i><br>
-                <!-- <i>TEA Workshop, Conference on Neural Information Processing Systems (NeurIPS) 2022</i><br>
+            <div class="list-item publication" data-category="publication">
+                <!-- <a href="https://sites.google.com/princeton.edu/sim-to-lab-to-real/home" class="thumbnail"><img src="images/22safe.png" alt="" /></a> -->
+                <a href="https://sites.google.com/princeton.edu/sim-to-lab-to-real/home" class="thumbnail">
+                    <video playsinline="" muted="" autoplay="" loop="" width="180px">
+                        <source src="images/video-sim2lab2real-kitchen.mp4" type="video/mp4">
+                    </video>
+                </a>
+                <div class="project-description">
+                    <h3><a href="https://sites.google.com/princeton.edu/sim-to-lab-to-real/home">Sim-to-Lab-to-Real:
+                            Safe Reinforcement Learning with Shielding and Generalization Guarantees</a></h3>
+                    <p>
+                        Kai-Chieh Hsu*, Allen Z. Ren*, Duy Phuong Nguyen, Anirudha Majumdar**, and Jaime F.
+                        Fisac**<br>*Equal contribution in alphabetical order; **Equal advising
+                        <br>
+                        <i>Artificial Intelligence Journal (AIJ), October 2022</i><br>
+                        <!-- <i>TEA Workshop, Conference on Neural Information Processing Systems (NeurIPS) 2022</i><br>
                 <i>Oral, GPL Workshop, International Conference on Learning Representations (ICLR) 2022</i><br> -->
-                <a href="https://sites.google.com/princeton.edu/sim-to-lab-to-real/home">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                <a href="https://arxiv.org/pdf/2201.08355.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                <a href="https://www.sciencedirect.com/science/article/abs/pii/S0004370222001515">Journal</a>
-            </p>
-          </div>
-        </div>
+                        <a
+                            href="https://saferoboticslab.github.io/SimLabReal">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                        <a href="https://arxiv.org/pdf/2201.08355.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                        <a href="https://www.sciencedirect.com/science/article/abs/pii/S0004370222001515">Journal</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                        <a href="https://github.com/SafeRoboticsLab/SimLabReal">Code</a>
+                    </p>
+                </div>
+            </div>
 
-        <div class="list-item publication" data-category="publication">
-          <!-- <a href="https://arxiv.org/pdf/2206.13074.pdf" class="thumbnail"><img src="images/22lang.png" alt="" /></a> -->
-          <a href="https://irom-lab.github.io/ATLA/" class="thumbnail">
-            <video playsinline="" muted="" autoplay="" loop="" width="180px">
-              <source src="images/video-metalang-sweep.mp4" type="video/mp4">
-            </video>
-          </a>
-          <div class="project-description">
-            <h3><a href="https://irom-lab.github.io/ATLA/">Leveraging Language for Accelerated Learning of Tool Manipulation</a></h3>
-            <p>
-              Allen Z. Ren, Bharat Govil, Tsung-Yen Yang, Karthik Narasimhan, and Anirudha Majumdar
-                <br>
-                <i>Conference on Robot Learning (CoRL), 2022</i><br>
-                <a href="https://irom-lab.github.io/ATLA/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                <a href="https://arxiv.org/pdf/2206.13074.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                <a href="https://www.youtube.com/watch?v=KTd6y-rf1Mk">Video</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                <a href="https://engineering.princeton.edu/news/2022/12/21/words-prove-their-worth-teaching-tools-robots#:~:text=Exploring%20a%20new%20way%20to,using%20a%20variety%20of%20tools.">Princeton News</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                <a href="https://www.quantamagazine.org/machines-learn-better-if-we-teach-them-the-basics-20230201/">Quanta Magazine</a>
-            </p>
-          </div>
-        </div>
+            <div class="list-item publication" data-category="publication">
+                <!-- <a href="https://arxiv.org/pdf/2206.13074.pdf" class="thumbnail"><img src="images/22lang.png" alt="" /></a> -->
+                <a href="https://irom-lab.github.io/ATLA/" class="thumbnail">
+                    <video playsinline="" muted="" autoplay="" loop="" width="180px">
+                        <source src="images/video-metalang-sweep.mp4" type="video/mp4">
+                    </video>
+                </a>
+                <div class="project-description">
+                    <h3><a href="https://irom-lab.github.io/ATLA/">Leveraging Language for Accelerated Learning of Tool
+                            Manipulation</a></h3>
+                    <p>
+                        Allen Z. Ren, Bharat Govil, Tsung-Yen Yang, Karthik Narasimhan, and Anirudha Majumdar
+                        <br>
+                        <i>Conference on Robot Learning (CoRL), 2022</i><br>
+                        <a href="https://irom-lab.github.io/ATLA/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                        <a href="https://arxiv.org/pdf/2206.13074.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                        <a href="https://www.youtube.com/watch?v=KTd6y-rf1Mk">Video</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                        <a
+                            href="https://engineering.princeton.edu/news/2022/12/21/words-prove-their-worth-teaching-tools-robots#:~:text=Exploring%20a%20new%20way%20to,using%20a%20variety%20of%20tools.">Princeton
+                            News</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                        <a
+                            href="https://www.quantamagazine.org/machines-learn-better-if-we-teach-them-the-basics-20230201/">Quanta
+                            Magazine</a>
+                    </p>
+                </div>
+            </div>
 
-        <div class="list-item publication" data-category="publication">
-          <a href="https://www.youtube.com/watch?v=KWqkH9Z-338" class="thumbnail"><img src="images/22drone.png" alt="" /></a>
-          <div class="project-description">
-            <h3><a href="https://www.youtube.com/watch?v=KWqkH9Z-338">FlowDrone: Wind Estimation and Gust Rejection on UAVs Using Fast-Response Hot-Wire Flow Sensors</a></h3>
-            <p>
-              Nathaniel Simon, Allen Z. Ren, Alexander Pique, David Snyder, Daphne Barretto, Marcus Hultmark, and Anirudha Majumdar
-                <br>
-                <i>IEEE International Conference on Robotics and Automation, 2023</i><br>
-                <a href="https://arxiv.org/pdf/2210.05857.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                <a href="https://www.youtube.com/watch?v=KWqkH9Z-338">Video</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                <a href="https://engineering.princeton.edu/news/2022/01/25/small-efficient-sensors-help-drones-fly-high-winds">Princeton News</a>
-            </p>
-          </div>
-        </div>
+            <div class="list-item publication" data-category="publication">
+                <a href="https://www.youtube.com/watch?v=KWqkH9Z-338" class="thumbnail"><img src="images/22drone.png"
+                        alt="" /></a>
+                <div class="project-description">
+                    <h3><a href="https://www.youtube.com/watch?v=KWqkH9Z-338">FlowDrone: Wind Estimation and Gust
+                            Rejection on UAVs Using Fast-Response Hot-Wire Flow Sensors</a></h3>
+                    <p>
+                        Nathaniel Simon, Allen Z. Ren, Alexander Pique, David Snyder, Daphne Barretto, Marcus Hultmark,
+                        and Anirudha Majumdar
+                        <br>
+                        <i>IEEE International Conference on Robotics and Automation, 2023</i><br>
+                        <a href="https://arxiv.org/pdf/2210.05857.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                        <a href="https://www.youtube.com/watch?v=KWqkH9Z-338">Video</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                        <a
+                            href="https://engineering.princeton.edu/news/2022/01/25/small-efficient-sensors-help-drones-fly-high-winds">Princeton
+                            News</a>
+                    </p>
+                </div>
+            </div>
 
-        <div class="list-item publication" data-category="publication">
-          <a href="https://arxiv.org/pdf/2202.05894.pdf" class="thumbnail"><img src="images/22fault.png" alt="" /></a>
-          <div class="project-description">
-            <h3><a href="https://arxiv.org/pdf/2202.05894.pdf">Failure Prediction with Statistical Guarantees for Vision-Based Robot Control</a></h3>
-            <p>
-              Alec Farid, David Snyder, Allen Z. Ren, Anirudha Majumdar
-                <br>
-                <i>Robotics: Science and Systems (RSS), 2022</i><br>
-                <a href="https://arxiv.org/pdf/2202.05894.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                <a href="https://www.youtube.com/watch?v=z4UwQzTjhqo">Video</a>
-            </p>
-          </div>
-        </div>
+            <div class="list-item publication" data-category="publication">
+                <a href="https://arxiv.org/pdf/2202.05894.pdf" class="thumbnail"><img src="images/22fault.png"
+                        alt="" /></a>
+                <div class="project-description">
+                    <h3><a href="https://arxiv.org/pdf/2202.05894.pdf">Failure Prediction with Statistical Guarantees
+                            for Vision-Based Robot Control</a></h3>
+                    <p>
+                        Alec Farid, David Snyder, Allen Z. Ren, Anirudha Majumdar
+                        <br>
+                        <i>Robotics: Science and Systems (RSS), 2022</i><br>
+                        <a href="https://arxiv.org/pdf/2202.05894.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                        <a href="https://www.youtube.com/watch?v=z4UwQzTjhqo">Video</a>
+                    </p>
+                </div>
+            </div>
 
-        <div class="list-item publication" data-category="publication">
-          <a href="https://arxiv.org/pdf/2107.06353.pdf" class="thumbnail">
-            <video playsinline="" muted="" autoplay="" loop="" width="180px">
-              <source src="images/video-dragen-grasping.mp4" type="video/mp4">
-            </video>
-          </a>
-          <!-- <a href="https://arxiv.org/pdf/2107.06353.pdf" class="thumbnail"><img src="images/21dragen.png" alt="" /></a> -->
-          <div class="project-description">
-            <h3><a href="https://arxiv.org/pdf/2202.05894.pdf">Distributionally Robust Policy Learning via Adversarial Environment Generation</a></h3>
-            <p>
-              Allen Z. Ren, Anirudha Majumdar
-                <br>
-                <i>IEEE Robotics and Automation Letters (RA-L), 2022</i><br>
-                <a href="https://arxiv.org/pdf/2107.06353.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                <a href="https://www.youtube.com/watch?v=E_DlR18cmSY">Video</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                <a href="https://github.com/irom-lab/DRAGEN">Code</a>
-            </p>
-          </div>
-        </div>
+            <div class="list-item publication" data-category="publication">
+                <a href="https://arxiv.org/pdf/2107.06353.pdf" class="thumbnail">
+                    <video playsinline="" muted="" autoplay="" loop="" width="180px">
+                        <source src="images/video-dragen-grasping.mp4" type="video/mp4">
+                    </video>
+                </a>
+                <!-- <a href="https://arxiv.org/pdf/2107.06353.pdf" class="thumbnail"><img src="images/21dragen.png" alt="" /></a> -->
+                <div class="project-description">
+                    <h3><a href="https://arxiv.org/pdf/2202.05894.pdf">Distributionally Robust Policy Learning via
+                            Adversarial Environment Generation</a></h3>
+                    <p>
+                        Allen Z. Ren, Anirudha Majumdar
+                        <br>
+                        <i>IEEE Robotics and Automation Letters (RA-L), 2022</i><br>
+                        <a href="https://arxiv.org/pdf/2107.06353.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                        <a href="https://www.youtube.com/watch?v=E_DlR18cmSY">Video</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                        <a href="https://github.com/irom-lab/DRAGEN">Code</a>
+                    </p>
+                </div>
+            </div>
 
-        <div class="list-item publication" data-category="publication">
-          <a href="https://arxiv.org/pdf/2111.08761.pdf" class="thumbnail"><img src="images/21gen.png" alt="" /></a>
-          <div class="project-description">
-            <h3><a href="https://arxiv.org/pdf/2111.08761.pdf">Stronger Generalization Guarantees for Robot Learning by Combining Generative Models and Real-World Data</a></h3>
-            <p>
-              Abhinav Agarwal, Sushant Veer, Allen Z. Ren, and Anirudha Majumdar
-                <br>
-                <i>IEEE International Conference on Robotics and Automation, 2022</i><br>
-                <a href="https://arxiv.org/pdf/2111.08761.pdf">PDF</a>
-            </p>
-          </div>
-        </div>
-        
-        <div class="list-item publication" data-category="publication">
-          <!-- <a href="https://www.youtube.com/watch?v=dfXyHvOTolc&t=1s" class="thumbnail"><img src="images/20pac.png" alt="" /></a> -->
-          <a href="https://www.youtube.com/watch?v=dfXyHvOTolc&t=1s" class="thumbnail">
-            <video playsinline="" muted="" autoplay="" loop="" width="180px">
-              <source src="images/video-imitation-pushing.mp4" type="video/mp4">
-            </video>
-          </a>
-          <div class="project-description">
-            <h3><a href="https://www.youtube.com/watch?v=dfXyHvOTolc&t=1s">Generalization Guarantees for Imitation Learning
-            </a></h3>
-            <p>
-              Allen Z. Ren, Sushant Veer, and Anirudha Majumdar
-                <br>
-                <i>Conference on Robot Learning (CoRL), 2020</i><br>
-                <a href="https://arxiv.org/pdf/2008.01913.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                <a href="https://github.com/irom-lab/PAC-Imitation">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                <a href="https://www.youtube.com/watch?v=nabtvOWoIlo">Video</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                <a href="https://www.youtube.com/watch?v=dfXyHvOTolc&t=1s">Experiments</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                <a href="https://engineering.princeton.edu/news/2020/11/17/machine-learning-guarantees-robots-performance-unknown-territory">Princeton News</a>
-            </p>
-          </div>
-        </div>
+            <div class="list-item publication" data-category="publication">
+                <a href="https://arxiv.org/pdf/2111.08761.pdf" class="thumbnail"><img src="images/21gen.png"
+                        alt="" /></a>
+                <div class="project-description">
+                    <h3><a href="https://arxiv.org/pdf/2111.08761.pdf">Stronger Generalization Guarantees for Robot
+                            Learning by Combining Generative Models and Real-World Data</a></h3>
+                    <p>
+                        Abhinav Agarwal, Sushant Veer, Allen Z. Ren, and Anirudha Majumdar
+                        <br>
+                        <i>IEEE International Conference on Robotics and Automation, 2022</i><br>
+                        <a href="https://arxiv.org/pdf/2111.08761.pdf">PDF</a>
+                    </p>
+                </div>
+            </div>
 
-        <div class="list-item publication" data-category="publication">
-          <!-- <a href="" class="thumbnail"><img src="images/19sensor.png" alt="" width="130px"/></a> -->
-          <a href="https://www.youtube.com/watch?v=rxqQmImvoIw" class="thumbnail">
-            <video playsinline="" muted="" autoplay="" loop="" width="180px">
-              <source src="images/video-smart-guitar-demo.mp4" type="video/mp4">
-            </video>
-          </a>
-          <div class="project-description">
-            <h3><a href="https://www.youtube.com/watch?v=rxqQmImvoIw">Multi-Contact Force-Sensing Guitar for Training and Therapy
-            </a></h3>
-            <p>
-              Zhiyi Ren, Chun-Cheng Hsu, Can Kocabalkanli, Khanh Nguyen, Iulian I Iordachita, Serap Bastepe-Gray, Nathan Scott
-                <br>
-                <i>IEEE Sensor Conference, 2019</i><br>
-                <a href="PDF/sensor_2019.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                <a href="https://ieeexplore.ieee.org/document/8956729">IEEE</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                <a href="https://www.youtube.com/watch?v=rxqQmImvoIw">Video</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                <a href="https://hub.jhu.edu/magazine/2019/summer/guitar-injury-smartguitar-serap-bastepe-gray/">JHU Magazine</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                <a href="https://www.wusa9.com/article/news/local/dc/this-smartguitar-can-help-musicians-train-avoid-long-term-damage/65-0242c076-4a80-4a55-866a-d62211a9d8fc">WUSA9 News</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                <a href="https://jhu.technologypublisher.com/technology/36912">Patent</a>
-            </p>
-          </div>
-        </div>
+            <div class="list-item publication" data-category="publication">
+                <!-- <a href="https://www.youtube.com/watch?v=dfXyHvOTolc&t=1s" class="thumbnail"><img src="images/20pac.png" alt="" /></a> -->
+                <a href="https://www.youtube.com/watch?v=dfXyHvOTolc&t=1s" class="thumbnail">
+                    <video playsinline="" muted="" autoplay="" loop="" width="180px">
+                        <source src="images/video-imitation-pushing.mp4" type="video/mp4">
+                    </video>
+                </a>
+                <div class="project-description">
+                    <h3><a href="https://www.youtube.com/watch?v=dfXyHvOTolc&t=1s">Generalization Guarantees for
+                            Imitation Learning
+                        </a></h3>
+                    <p>
+                        Allen Z. Ren, Sushant Veer, and Anirudha Majumdar
+                        <br>
+                        <i>Conference on Robot Learning (CoRL), 2020</i><br>
+                        <a href="https://arxiv.org/pdf/2008.01913.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                        <a href="https://github.com/irom-lab/PAC-Imitation">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                        <a href="https://www.youtube.com/watch?v=nabtvOWoIlo">Video</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                        <a
+                            href="https://www.youtube.com/watch?v=dfXyHvOTolc&t=1s">Experiments</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                        <a
+                            href="https://engineering.princeton.edu/news/2020/11/17/machine-learning-guarantees-robots-performance-unknown-territory">Princeton
+                            News</a>
+                    </p>
+                </div>
+            </div>
 
-        <div class="list-item publication" data-category="publication">
-          <a href="PDF/riss_2018.pdf" class="thumbnail">
-            <video playsinline="" muted="" autoplay="" loop="" width="180px">
-              <source src="images/video-minitaur-climb-stairs.mp4" type="video/mp4">
-            </video>
-          </a>
-          <div class="project-description">
-            <h3><a href="PDF/riss_2018.pdf">Toward Robust Stair Climbing of the Quadruped using Proprioceptive Sensing
-            </a></h3>
-            <p>
-              Zhiyi Ren and Aaron Johnson
-                <br>
-                <i>CMU Robotics Institute Summer Scholars Working Papers Journal, 2018
-                </i><br>
-                <a href="PDF/riss_2018.pdf">PDF</a>
-            </p>
-            <br><br>
-          </div>
-        </div>
+            <div class="list-item publication" data-category="publication">
+                <!-- <a href="" class="thumbnail"><img src="images/19sensor.png" alt="" width="130px"/></a> -->
+                <a href="https://www.youtube.com/watch?v=rxqQmImvoIw" class="thumbnail">
+                    <video playsinline="" muted="" autoplay="" loop="" width="180px">
+                        <source src="images/video-smart-guitar-demo.mp4" type="video/mp4">
+                    </video>
+                </a>
+                <div class="project-description">
+                    <h3><a href="https://www.youtube.com/watch?v=rxqQmImvoIw">Multi-Contact Force-Sensing Guitar for
+                            Training and Therapy
+                        </a></h3>
+                    <p>
+                        Zhiyi Ren, Chun-Cheng Hsu, Can Kocabalkanli, Khanh Nguyen, Iulian I Iordachita, Serap
+                        Bastepe-Gray, Nathan Scott
+                        <br>
+                        <i>IEEE Sensor Conference, 2019</i><br>
+                        <a href="PDF/sensor_2019.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                        <a href="https://ieeexplore.ieee.org/document/8956729">IEEE</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                        <a href="https://www.youtube.com/watch?v=rxqQmImvoIw">Video</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                        <a
+                            href="https://hub.jhu.edu/magazine/2019/summer/guitar-injury-smartguitar-serap-bastepe-gray/">JHU
+                            Magazine</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                        <a
+                            href="https://www.wusa9.com/article/news/local/dc/this-smartguitar-can-help-musicians-train-avoid-long-term-damage/65-0242c076-4a80-4a55-866a-d62211a9d8fc">WUSA9
+                            News</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                        <a href="https://jhu.technologypublisher.com/technology/36912">Patent</a>
+                    </p>
+                </div>
+            </div>
 
-        <div class="list-item publication" data-category="publication">
-          <a href="https://arxiv.org/pdf/1911.02526.pdf" class="thumbnail"><img src="images/18bb.png" alt="" /></a>
-          <div class="project-description">
-            <h3><a href="https://arxiv.org/pdf/1911.02526.pdf">Dynamic Traversal of Large Gaps by Insects and Legged Robots Reveals a Template</a></h3>
-            <p>
-              Sean W. Gart, Changxin Yan, Ratan Othayoth, Zhiyi Ren and Chen Li
-                <br>
-                <i>Bioinspiration and Biomimetics Journal, 2018
-                </i><br>
-                <a href="https://arxiv.org/pdf/1911.02526.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                <a href="https://iopscience.iop.org/article/10.1088/1748-3190/aaa2cd">Journal</a>
-            </p>
-          </div>
-        </div>
+            <div class="list-item publication" data-category="publication">
+                <a href="PDF/riss_2018.pdf" class="thumbnail">
+                    <video playsinline="" muted="" autoplay="" loop="" width="180px">
+                        <source src="images/video-minitaur-climb-stairs.mp4" type="video/mp4">
+                    </video>
+                </a>
+                <div class="project-description">
+                    <h3><a href="PDF/riss_2018.pdf">Toward Robust Stair Climbing of the Quadruped using Proprioceptive
+                            Sensing
+                        </a></h3>
+                    <p>
+                        Zhiyi Ren and Aaron Johnson
+                        <br>
+                        <i>CMU Robotics Institute Summer Scholars Working Papers Journal, 2018
+                        </i><br>
+                        <a href="PDF/riss_2018.pdf">PDF</a>
+                    </p>
+                    <br>
+                </div>
+            </div>
 
-        <div class="list-item publication" data-category="publication">
-          <a href="https://meetings.aps.org/Meeting/MAR18/Session/B50.10" class="thumbnail">
-            <video playsinline="" muted="" autoplay="" loop="" width="180px">
-              <source src="images/video-walk-self-right.mp4" type="video/mp4">
-            </video>
-          </a>
-          <div class="project-description">
-            <h3><a href="https://meetings.aps.org/Meeting/MAR18/Session/B50.10">Legged Robots Change Locomotor Modes To Traverse 3-D Obstacles With Varied Stiffness</a></h3>
-            <p>
-              Zhiyi Ren, Ratan Othayoth, and Chen Li
-                <br>
-                <i>American Physics Society, Robophysics, 2018
-                </i><br>
-                <a href="https://meetings.aps.org/Meeting/MAR18/Session/B50.10">Abstract</a>
-            </p>
-          </div>
-        </div>
+            <div class="list-item publication" data-category="publication">
+                <a href="https://arxiv.org/pdf/1911.02526.pdf" class="thumbnail"><img src="images/18bb.png"
+                        alt="" /></a>
+                <div class="project-description">
+                    <h3><a href="https://arxiv.org/pdf/1911.02526.pdf">Dynamic Traversal of Large Gaps by Insects and
+                            Legged Robots Reveals a Template</a></h3>
+                    <p>
+                        Sean W. Gart, Changxin Yan, Ratan Othayoth, Zhiyi Ren and Chen Li
+                        <br>
+                        <i>Bioinspiration and Biomimetics Journal, 2018
+                        </i><br>
+                        <a href="https://arxiv.org/pdf/1911.02526.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                        <a href="https://iopscience.iop.org/article/10.1088/1748-3190/aaa2cd">Journal</a>
+                    </p>
+                </div>
+            </div>
 
-
-        <!-- Talks -->
-
-        <!-- 2023 -->
-        <div class="list-item talk" data-category="talk">
-          <p class="date">2023</p><a href="https://sites.google.com/view/gbrainprinceton/home">Google Brain Princeton</a>
-        </div>
-
-        <div class="list-item talk" data-category="talk">
-          <p class="date"></p><a href="https://apex.sjtu.edu.cn/">Apex Lab</a> at SJTU
-        </div>
-
-        <!-- 2022 -->
-        <div class="list-item talk" data-category="talk">
-          <p class="date">2022</p>Dexterous Manipulation Team, <a href="https://www.tri.global/our-work/robotics">Toyota Research Institute</a>
-        </div>
-
-
-        <!-- Services -->
-
-        <!-- 2020+ -->
-        <div class="list-item misc" data-category="misc">
-          <p class="date">2020+</p>Main organizer, <a href="https://robo.princeton.edu/seminar">Princeton Robotics Seminar</a>
-        </div>
-
-        <div class="list-item misc" data-category="misc">
-          <p class="date"></p>Webmaster, <a href="https://robo.princeton.edu">Robotics at Princeton</a>
-        </div>
-
-        <div class="list-item misc" data-category="misc">
-          <p class="date"></p>Reviewer, AIJ, T-RO, RA-L, NeurIPS, L4DC, CoRL, ICRA
-        </div>
+            <div class="list-item publication" data-category="publication">
+                <a href="https://meetings.aps.org/Meeting/MAR18/Session/B50.10" class="thumbnail">
+                    <video playsinline="" muted="" autoplay="" loop="" width="180px">
+                        <source src="images/video-walk-self-right.mp4" type="video/mp4">
+                    </video>
+                </a>
+                <div class="project-description">
+                    <h3><a href="https://meetings.aps.org/Meeting/MAR18/Session/B50.10">Legged Robots Change Locomotor
+                            Modes To Traverse 3-D Obstacles With Varied Stiffness</a></h3>
+                    <p>
+                        Zhiyi Ren, Ratan Othayoth, and Chen Li
+                        <br>
+                        <i>American Physics Society, Robophysics, 2018
+                        </i><br>
+                        <a href="https://meetings.aps.org/Meeting/MAR18/Session/B50.10">Abstract</a>
+                    </p>
+                </div>
+            </div>
 
 
-        <!-- Personal -->
-        <div class="list-item personal" data-category="personal">
-          <h4><b>I</b> am from Jiangsu, China. My Chinese name is 任至意. As much as I want to use my first name in Chinese, Zhiyi, I find it very difficult to pronounce for non-native speakers.</h4>
-        </div>
+            <!-- Talks -->
 
-        <div class="list-item personal" data-category="personal">
-          <h4><b>I</b> enjoy watching and playing soccer, hitting the gym, and traveling/backpacking. I am also an aviation enthusiast and hold a private pilot license <a href="https://www.zhihu.com/question/39976247/answer/114491085">my story in Chinese</a>. I am a member of the <a href="http://www.princetonflyingclub.com/">Princeton Flying Club</a>.</h4>
+            <!-- 2023 -->
+            <div class="list-item talk" data-category="talk">
+                <p class="date">2023</p><a href="https://sites.google.com/view/gbrainprinceton/home">Google Brain
+                    Princeton</a>
+            </div>
 
-        </div>
+            <div class="list-item talk" data-category="talk">
+                <p class="date"></p><a href="https://apex.sjtu.edu.cn/">Apex Lab</a> at SJTU
+            </div>
 
-        <!-- <div class="list-item personal" data-category="personal">
+            <!-- 2022 -->
+            <div class="list-item talk" data-category="talk">
+                <p class="date">2022</p>Dexterous Manipulation Team, <a
+                    href="https://www.tri.global/our-work/robotics">Toyota Research Institute</a>
+            </div>
+
+
+            <!-- Services -->
+
+            <!-- 2020+ -->
+            <div class="list-item misc" data-category="misc">
+                <p class="date">2020+</p>Main organizer, <a href="https://robo.princeton.edu/seminar">Princeton Robotics
+                    Seminar</a>
+            </div>
+
+            <div class="list-item misc" data-category="misc">
+                <p class="date"></p>Webmaster, <a href="https://robo.princeton.edu">Robotics at Princeton</a>
+            </div>
+
+            <div class="list-item misc" data-category="misc">
+                <p class="date"></p>Reviewer, AIJ, T-RO, RA-L, NeurIPS, L4DC, CoRL, ICRA
+            </div>
+
+
+            <!-- Personal -->
+            <div class="list-item personal" data-category="personal">
+                <h4><b>I</b> am from Jiangsu, China. My Chinese name is 任至意. As much as I want to use my first name in
+                    Chinese, Zhiyi, I find it very difficult to pronounce for non-native speakers.</h4>
+            </div>
+
+            <div class="list-item personal" data-category="personal">
+                <h4><b>I</b> enjoy watching and playing soccer, hitting the gym, and traveling/backpacking. I am also an
+                    aviation enthusiast and hold a private pilot license <a
+                        href="https://www.zhihu.com/question/39976247/answer/114491085">my story in Chinese</a>. I am a
+                    member of the <a href="http://www.princetonflyingclub.com/">Princeton Flying Club</a>.</h4>
+
+            </div>
+
+            <!-- <div class="list-item personal" data-category="personal">
           <h3><b>Free</b> free to reach out on email or wechat (ID: allenzren) for research collaboration, job opportunities, startup ideas, or a Cessna ride down the Hudson :).</h3>
         </div> -->
 
-        <div class="list-item personal" data-category="personal">
-          <h4><b>Flying</b> up the Hudson River with N3054E on Dec 30, 2022.</h4>
+            <div class="list-item personal" data-category="personal">
+                <h4><b>Flying</b> up the Hudson River with N3054E on Dec 30, 2022.</h4>
+            </div>
+
+            <div class="list-item personal" data-category="personal">
+                <a href="https://www.google.com/search?q=hudson+corridor"><video class="flight" playsinline="" muted=""
+                        autoplay="" loop="" width="640" height="360">
+                        <source src="images/video-hudson-night.mp4" type="video/mp4">
+                    </video></a>
+                <br>
+            </div>
+
         </div>
 
-        <div class="list-item personal" data-category="personal">
-          <a href="https://www.google.com/search?q=hudson+corridor"><video class="flight" playsinline="" muted="" autoplay="" loop="" width="640" height="360"><source src="images/video-hudson-night.mp4" type="video/mp4"></video></a>
-          <br>
+        <div id="footer">Design and source code from <a href="https://andyzeng.github.io/">Andy's</a> awesome website.
         </div>
 
-      </div>
+        <script>
 
-      <div id="footer">Design and source code from  <a href="https://andyzeng.github.io/">Andy's</a> awesome website.
-      </div>
+            // Isotope grid.
+            var $grid = $('.grid').isotope({
+                itemSelector: '.list-item',
+                layoutMode: 'fitRows',
+                transitionDuration: 0,
+                stagger: 10,
+                initLayout: false,
+                getSortData: {
+                    name: '.name',
+                    symbol: '.symbol',
+                    number: '.number parseInt',
+                    category: '[data-category]',
+                    weight: function (itemElem) {
+                        var weight = $(itemElem).find('.weight').text();
+                        return parseFloat(weight.replace(/[\(\)]/g, ''));
+                    }
+                }
+            });
 
-    <script>
+            // Bind filter button click.
+            $('#filters').on('click', 'button', function () {
+                var filterValue = $(this).attr('data-filter');
+                localStorage.setItem('filterValue', filterValue);
+                $grid.isotope({filter: filterValue});
+            });
 
-      // Isotope grid.
-      var $grid = $('.grid').isotope({
-        itemSelector: '.list-item',
-        layoutMode: 'fitRows',
-        transitionDuration: 0,
-        stagger: 10,
-        initLayout: false,
-        getSortData: {
-          name: '.name',
-          symbol: '.symbol',
-          number: '.number parseInt',
-          category: '[data-category]',
-          weight: function( itemElem ) {
-            var weight = $( itemElem ).find('.weight').text();
-            return parseFloat( weight.replace( /[\(\)]/g, '') );
-          }
-        }
-      });
+            // Change is-checked class on buttons.
+            $('.button-group').each(function (i, buttonGroup) {
+                var $buttonGroup = $(buttonGroup);
+                $buttonGroup.on('click', 'button', function () {
+                    $buttonGroup.find('.is-checked').removeClass('is-checked');
+                    $(this).addClass('is-checked');
+                });
+            });
 
-      // Bind filter button click.
-      $('#filters').on( 'click', 'button', function() {
-        var filterValue = $( this ).attr('data-filter');
-        localStorage.setItem('filterValue', filterValue);
-        $grid.isotope({ filter: filterValue });
-      });
+            function update_isotope() {
+                // Retrieve cached button click.
+                var defaultFilterValue = localStorage.getItem('filterValue');
+                if (defaultFilterValue == null) {
+                    defaultFilterValue = ".highlight"
+                }
+                $grid.isotope({filter: defaultFilterValue});
+                var buttons = document.getElementsByClassName("button");
+                for (var currButton of buttons) {
+                    if (currButton.getAttribute('data-filter') == defaultFilterValue) {
+                        currButton.classList.add('is-checked');
+                    } else {
+                        currButton.classList.remove('is-checked');
+                    }
+                }
+            }
 
-      // Change is-checked class on buttons.
-      $('.button-group').each( function( i, buttonGroup ) {
-        var $buttonGroup = $( buttonGroup );
-        $buttonGroup.on( 'click', 'button', function() {
-          $buttonGroup.find('.is-checked').removeClass('is-checked');
-          $( this ).addClass('is-checked');
-        });
-      });
+            function toggle_interest() {
+                var x = document.getElementById("more-interest");
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none";
+                }
+            }
 
-      function update_isotope() {
-        // Retrieve cached button click.
-        var defaultFilterValue = localStorage.getItem('filterValue');
-        if (defaultFilterValue == null) {
-          defaultFilterValue = ".highlight"
-        }
-        $grid.isotope({ filter: defaultFilterValue });
-        var buttons = document.getElementsByClassName("button");
-        for (var currButton of buttons) {
-          if (currButton.getAttribute('data-filter') == defaultFilterValue) {
-            currButton.classList.add('is-checked');
-          } else {
-            currButton.classList.remove('is-checked');
-          }
-        }
-      }
+            function toggle_highlights() {
+                var x = document.getElementById("main-highlights");
+                var y = document.getElementById("more-highlights");
+                var b = document.getElementById("toggle_highlights_button")
+                if (y.style.display === "none") {
+                    x.style.display = "none";
+                    y.style.display = "block";
+                    b.innerHTML = "Show less"
+                    update_isotope();
+                } else {
+                    x.style.display = "block";
+                    y.style.display = "none";
+                    b.innerHTML = "Show more"
+                    update_isotope();
+                }
+            }
 
-      function toggle_interest() {
-        var x = document.getElementById("more-interest");
-        if (x.style.display === "none") {
-          x.style.display = "block";
-        } else {
-          x.style.display = "none";
-        }
-      }
+            update_isotope();
 
-      function toggle_highlights() {
-        var x = document.getElementById("main-highlights");
-        var y = document.getElementById("more-highlights");
-        var b = document.getElementById("toggle_highlights_button")
-        if (y.style.display === "none") {
-          x.style.display = "none";
-          y.style.display = "block";
-          b.innerHTML = "Show less"
-          update_isotope();
-        } else {
-          x.style.display = "block";
-          y.style.display = "none";
-          b.innerHTML = "Show more"
-          update_isotope();
-        }
-      }
+        </script>
+</body>
 
-      update_isotope();
-
-    </script>
-  </body>
 </html>
