@@ -103,7 +103,7 @@ h1 {
   height: 12em;
   float: left;
   overflow: hidden;
-  border-radius: 1em;
+  border-radius: 3.5em;
 }
 
 #intro-image img {
@@ -166,7 +166,7 @@ h2 {
 /* Isotope grid list of items. */
 
 .grid {
-  padding-bottom: 6em;
+  padding-bottom: 5em;
 }
 
 /* clear fix */

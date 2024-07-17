@@ -2,9 +2,9 @@
 <html>
 
 <head>
-
     <!-- Title -->
     <title>Neil Fernandes - UWaterloo</title>
+    <link rel="icon" href="/images/UniversityOfWaterloo_logo_horiz_rgb.png">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=1000">
 
@@ -35,28 +35,22 @@
             <div id="intro-text">
                 <h1>Neil Fernandes</h1>
                 <p>
-                    Hi there! I'm a PhD student at <a href="https://www.princeton.edu/">Princeton</a>, where I work with <a href="https://irom-lab.princeton.edu/majumdar/">Ani Majumdar</a> on robotics. During PhD I have also spent time at <a href="https://research.google/research-areas/robotics/">Google DeepMind</a>, <a href="http://www.tri.global/our-work/robotics">Toyota Research Institute</a>, and <a href="https://iliad.stanford.edu/">Stanford ILIAD</a>.
-                    <!-- I am also a student researcher at <a href="https://research.google/teams/robotics/">Google DeepMind</a> with <a href="https://andyzeng.github.io/">Andy Zeng</a>, and currently visiting <a href="https://dorsa.fyi/">Dorsa Sadigh</a>'s group at Stanford. -->
+                    Hello! I'm a MASc student at the <a href="https://uwaterloo.ca">University of Waterloo</a>, where I work with <a href="https://uwaterloo.ca/electrical-computer-engineering/profile/kdautenh">Dr. rer. nat. Kerstin Dautenhahn</a> and <a href="https://hu-yue.github.io"> Dr. Yue Hu</a>  on robotics and Human Robot Interaction. I currently hold a 
+                    BASc in Mechatronics Engineering, also from the University of Waterloo. During my Bachelor's, I had the great opportunity to work at <a href="https://tmmc.ca/en/">Toyota Motor Manufacturing Canada</a>, <a href="http://www.tri.global/our-work/robotics">Toyota Research Institute</a>, and <a href="https://www.huawei.com/ca/">Huawei</a>
                     <br><br>
                     <!-- I teach robots to perform tasks effectively, safely, and with confidence in novel environments, especially those in the real world with humans around. -->
-                    I design algorithms that enable robots and other agents to operate safely and robustly under diverse environment variations, thus building trust between humans and robots.
+                    I regard myself as a digital nomad who wants to make robots smarter everday!
+                    My main aim is to build safe and secure robots that can interact with humans safely, in any given scenario. I also am interested in building algorithms that help robots
                     <!-- robots to learn and adapt to new environments and tasks, as well as build trust between humans and robots. -->
                     <br>
                 <div id="more-interest" style="display: None">
                     <br>
                     <p>
-                        I am interested in developing theoretical and algorithmic techniques that allow us to formally guarantee that robots will operate reliably in diverse environments. I have focused on two directions. The first is <a href="https://robot-help.github.io">rigorous uncertainty quantification</a>. In order to evaluate robots' performance and formally certify them, it is important to understand and then predict when and why they succeed or fail to generalize to new environments and tasks. This requires us to rigorously examine the confidence and uncertainties of the different components of the robotic system (perception, planner, and controller), and how they reflect the real outcomes. The second is <a href="https://irom-lab.github.io/AdaptSim/">continual adaptation</a> and recertification. As the robot is deployed in the real world, it will likely encounter situations that it has not seen during training and in-house testing. Ensuring its performance and safety requires efficient and continual adaptation of the robot policy in the wild, and also recertification of the system under such distributional shift.
+                        I am interested in developing theoretical and algorithmic techniques that allow us to formally guarantee that robots will operate reliably in diverse environments. I have focused on two directions. The first is <a href="https://robot-help.github.io">rigorous uncertainty quantification</a>. In order to evaluate robots' performance and formally certify them, 
+                        it is important to understand and then predict when and why they succeed or fail to generalize to new environments and tasks. This requires us to rigorously examine the confidence and uncertainties of the different components of the robotic system (perception, planner, and controller), and how they reflect the real outcomes. The second is <a href="https://irom-lab.github.io/AdaptSim/">continual adaptation</a> and recertification. 
+                        As the robot is deployed in the real world, it will likely encounter situations that it has not seen during training and in-house testing. Ensuring its performance and safety requires efficient and continual adaptation of the robot policy in the wild, and also recertification of the system under such distributional shift.
                         <br><br>
                         My current work involves connecting the two directions in a tight loop: robots shall be recertified with rigorous uncertainty quantification after they are deployed, and uncertainty quantification of their policies identifies environments and tasks where they shall better adapt to.
-                        <!-- Currently I am particularly interested in:
-                        <br>
-                        <!-- (1) identifying the simulation setup for optimal task performance in <a -->
-                            <!-- href="https://arxiv.org/abs/2302.04903">sim-to-real transfer</a> -->
-                        <!-- <br> -->
-                        <!-- (1) quantifying (epistemic) uncertainty of foundation-model-based modules (perception, planning, and control) for active data collection,
-                        <br><br>
-                        (2) robustfying policies trained with human demonstrations using <a
-                        href="https://arxiv.org/abs/2302.04903">diverse simulated scenarios</a> for better generalization in diverse real environments. -->
                         <br><br>
                         Please reach out if you also find this interesting!
                     </p>
@@ -64,26 +58,24 @@
                 <br>
                 <a href="javascript:toggle_interest()">Research Interests</a>&nbsp;&nbsp;&nbsp;&nbsp;
                 <!-- <a href="https://github.com/andyzeng">Github</a>&nbsp;&nbsp;&nbsp;&nbsp; -->
-                <a href="https://scholar.google.com/citations?user=mgMzkYMAAAAJ&hl=en">G.
-                    Scholar</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="https://www.linkedin.com/in/allenzren/">LinkedIn</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="https://twitter.com/allenzren">Twitter</a>
+                <a href="https://www.linkedin.com/in/n24ferna/">LinkedIn</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://x.com/NiobiumNeo">Twitter</a>
                 <br><br>
-                allen dot ren at princeton dot edu
+                n24ferna [at] uwaterloo [dot] ca
                 <br><br>
                 </p>
             </div>
             <div id="intro-image">
-                <img src="images/profile.png">
+                <img src="images/headshot.jpg">
             </div>
         </div>
 
         <div id="filters" class="button-group">
             <!-- <button class="button" data-filter="*">Show All</button> -->
             <button class="button is-checked" data-filter=".highlight">Highlights</button>
-            <button class="button" data-filter=".publication">Research</button>
-            <button class="button" data-filter=".talk">Talks</button>
-            <button class="button" data-filter=".misc">Misc</button>
+            <button class="button is-checked" data-filter=".publication">Projects</button>
+            <!-- <button class="button" data-filter=".talk">Talks</button>
+            <button class="button" data-filter=".misc">Misc</button> -->
             <button class="button" data-filter=".personal">Personal</button>
         </div>
 
@@ -94,7 +86,12 @@
           Some recent highlights from our research:
         </div> -->
 
-            <!-- Preview Videos -->
+        <!--
+
+            THIS WOULD BE THE PLACE WHERE YOU WOULD ADD SOME MORE VIDEOS FROM PREVIOUS PROJECTS
+
+        -->
+            <!-- Preview Videos
             <div class="list-item highlight previews" data-category="highlight">
 
                 <a href="https://robot-help.github.io"><video class="preview1" playsinline="" muted=""
@@ -110,13 +107,14 @@
                 <a href="https://saferoboticslab.github.io/SimLabReal"><video class="preview3"
                         playsinline="" muted="" autoplay="" loop="">
                         <source src="images/video-sim2lab2real-kitchen.mp4" type="video/mp4">
-                    </video></a>
+                    </video></a> -->
 
                 <!-- <video class="preview3" playsinline="" muted="" autoplay="" loop="">
                     <source src="images/video-fault-drone.mp4" type="video/mp4">
                 </video> -->
 
-            </div>
+
+
 
             <!-- Truncated Set of Highlights (Shown by Default) -->
             <div id="main-highlights">
@@ -284,433 +282,35 @@
 
             <!-- Publications -->
             <div class="list-item publication" data-category="publication">
-                <a href="https://explore-eqa.github.io" class="thumbnail"><img src="images/euc.png"
-                        alt="" /></a>
+                <a href="https://www.youtube.com/watch?v=Vbqd5sA4NYo" class="thumbnail"><video playsinline="" muted="" autoplay="" loop="" width="400px">
+                            <source src="images/video-mimick.mp4" type="video/mp4">
                 <div class="project-description">
-                    <h3><a href="https://explore-eqa.github.io">Explore until Confident: Efficient Exploration for Embodied Question Answering</a></h3>
+                    <h3><a href="https://www.youtube.com/watch?v=Vbqd5sA4NYo">Mimick: Exploring human likability through non verbal cues and human personality</a></h3>
                     <p>
-                        Allen Z. Ren, Jaden Clark, Anushri Dixit, Masha Itkina, Anirudha Majumdar, Dorsa Sadigh
+                        <b>Neil Fernandes</b>
                         <br>
-                        <i>Under review, 2024</i><br>
-                        <a href="https://explore-eqa.github.io">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                        <a href="https://arxiv.org/pdf/2403.15941.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                        <a href="https://www.youtube.com/watch?v=Dn8WjF9gIiQ">Video</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                        <a href="https://github.com/Stanford-ILIAD/explore-eqa">Code</a>
+                        <i>2024</i><br>
+                        <a href="https://www.youtube.com/watch?v=Vbqd5sA4NYo">Video</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                        <a href="PDF/mimick_2024.pdf">PDF</a>
                     </p>
                 </div>
             </div>
 
-            <div class="list-item publication" data-category="publication">
-                <a href="https://perceive-with-confidence.github.io" class="thumbnail"><img src="images/24pwc.png"
-                    alt="" /></a>
+           <div class="list-item publication" data-category="publication">
+                <a href="https://kite-capstone.github.io" class="thumbnail"><video playsinline="" muted="" autoplay="" loop="" width="400px">
+                            <source src="images/Project Kite Symposium.mp4" type="video/mp4">
                 <div class="project-description">
-                    <h3>Perceive With Confidence: Statistical Safety Assurances for Navigation with Learning-Based Perception</h3>
+                    <h3><a href="https://kite-capstone.github.io">Project Kite: A Low cost Unmanned Aerial Vehicle that helps with HV Insulator Inspection on Power lines</a></h3>
                     <p>
-                        Anushri Dixit, Zhiting Mei, Meghan Booker, Mariko Storey-Matsutani, Allen Z. Ren, Anirudha Majumdar
+                        <b>Neil Fernandes</b>, Joshua Cai, Lucas Arzoumanian, Stephen Wang, Samuel Sun
                         <br>
-                        <i>Under review, 2024</i><br>
-                        <a href="https://perceive-with-confidence.github.io">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                        <a href="https://arxiv.org/pdf/2403.08185.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                        <a href="https://www.youtube.com/watch?v=sztc832hw0c">Video</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                        <a href="https://github.com/irom-lab/perception-guarantees">Code</a>
+                        <i>Mechatronics Capstone Symposium, 2024</i><br>
+                        <a href="https://kite-capstone.github.io">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                        <a href="https://www.youtube.com/@project-kite">Youtube</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                        <a href="https://github.com/kite-capstone">Code</a>
                     </p>
                 </div>
             </div>
-
-            <div class="list-item publication" data-category="publication">
-                <a href="https://robot-teaching.github.io" class="thumbnail"><video playsinline="" muted="" autoplay="" loop="" width="180px">
-                    <source src="images/video-daynight.mp4" type="video/mp4">
-                </video></a>
-                <div class="project-description">
-                    <h3><a href="https://robot-teaching.github.io">Learning to Learn Faster from Human Feedback with Language Model Predictive Control</a></h3>
-                    <p>
-                        Jacky Liang, Fei Xia, Wenhao Yu, Andy Zeng, Montserrat Gonzalez Arenas, Maria Attarian, Maria Bauza, Matthew Bennice, Alex Bewley, Adil Dostmohamed, Chuyuan Kelly Fu, Nimrod Gileadi, Marissa Giustina, Keerthana Gopalakrishnan, Leonard Hasenclever, Jan Humplik, Jasmine Hsu, Nikhil Joshi, Ben Jyenis, Chase Kew, Sean Kirmani, Tsang-Wei Edward Lee, Kuang-Huei Lee, Assaf Hurwitz Michaely, Joss Moore, Ken Oslund, Dushyant Rao, Allen Ren, Baruch Tabanpour, Quan Vuong, Ayzaan Wahid, Ted Xiao, Ying Xu, Vincent Zhuang, Peng Xu, Erik Frey, Ken Caluwaerts, Tingnan Zhang, Brian Ichter, Jonathan Tompson, Leila Takayama, Vincent Vanhoucke, Izhak Shafran, Maja Mataric, Dorsa Sadigh, Nicolas Heess, Kanishka Rao, Nik Stewart, Jie Tan, Carolina Parada
-                        <br>
-                        <i>Under review, 2024</i><br>
-                        <a href="https://robot-teaching.github.io">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                        <a href="https://arxiv.org/abs/2402.11450">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                        <a href=https://colab.research.google.com/drive/1YcRN_kklw3cVVJNvgK_IEV6nDce9EJWK?usp=sharing">Code</a>
-                    </p>
-                </div>
-            </div>
-
-            <div class="list-item publication" data-category="publication">
-                <a href="https://sites.google.com/view/openbidexhand" class="thumbnail"><img src="images/23hand.png"
-                        alt="" /></a>
-                <div class="project-description">
-                    <h3><a href="https://arxiv.org/pdf/2304.04602.pdf">Learning a Universal Human Prior for Dexterous Manipulation from Human Preference</a></h3>
-                    <p>
-                        Zihan Ding, Yuanpei Chen, Allen Z. Ren, Shixiang Shane Gu, Hao Dong, Chi Jin
-                        <br>
-                        <i>Under review, 2024</i><br>
-                        <a href="https://sites.google.com/view/openbidexhand">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                        <a href="https://arxiv.org/pdf/2304.04602.pdf">PDF</a>
-                    </p>
-                </div>
-            </div>
-
-            <div class="list-item publication" data-category="publication">
-                <a href="https://openreview.net/forum?id=1aRNtmy5zX" class="thumbnail"><img src="images/24prompt.png" alt="" /></a>
-                <div class="project-description">
-                    <h3><a href="https://openreview.net/forum?id=1aRNtmy5zX">How to Prompt Your Robot: A PromptBook for Manipulation Skills with Code as Policies</a></h3>
-                    <p>
-                        Montserrat Gonzalez Arenas, Ted Xiao, Sumeet Singh, Vidhi Jain, Allen Z. Ren, Quan Vuong, Jake Varley, Alexander Herzog, Isabel Leal, Sean Kirmani, Dorsa Sadigh, Vikas Sindhwani, Kanishka Rao, Jacky Liang, Andy Zeng
-                        <br>
-                        <i>IEEE International Conference on Robotics and Automation (ICRA) 2024</i><br>
-                        <i>Robot Learning Workshop (WRL) at the Conference on Neural Information Processing Systems (NeurIPS) 2023</i><br>
-                        <!-- <a href="https://sites.google.com/view/openbidexhand">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp; -->
-                        <a href="https://openreview.net/forum?id=1aRNtmy5zX">PDF</a>
-                    </p>
-                </div>
-            </div>
-
-            <div class="list-item publication" data-category="publication">
-                <a href="https://robot-help.github.io" class="thumbnail"><video playsinline="" muted="" autoplay="" loop="" width="180px">
-                    <source src="images/video-knowno-microwave.mp4" type="video/mp4">
-                </video></a>
-                <div class="project-description">
-                    <h3><a href="https://robot-help.github.io">Robots That Ask For Help: Uncertainty Alignment for Large Language Model Planners</a></h3>
-                    <p>
-                        Allen Z. Ren, Anushri Dixit, Alexandra Bodrova, Sumeet Singh, Stephen Tu, Noah Brown, Peng Xu, Leila Takayama, Fei Xia, Jake Varley, Zhenjia Xu, Dorsa Sadigh, Andy Zeng, Anirudha Majumdar
-                        <br>
-                        <i>Conference on Robot Learning (CoRL), 2023</i><br>
-                        <font color="49bf9"><i>&#9733; Oral Presentation, Best Student Paper Award, CoRL &#9733;</i></font><br>
-                        <a href="https://robot-help.github.io">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                        <a href="https://arxiv.org/pdf/2307.01928.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                        <a href="https://www.youtube.com/watch?v=xCXx09gfhx4">Video</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                        <a href="https://github.com/google-research/google-research/tree/master/language_model_uncertainty">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                        <a href="https://colab.research.google.com/drive/1EvAmHfFrasb_eALj4vWNMhwlJCdNfIAg?authuser=1">Demo</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                        <a
-                            href="https://engineering.princeton.edu/news/2023/11/28/how-do-you-make-robot-smarter-program-it-know-what-it-doesnt-know">Princeton
-                            News
-                        </a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                        <a
-                            href="https://www.technologyreview.com/2023/12/08/1084672/these-robots-know-when-to-ask-for-help/">MIT Technology Review
-                        </a>
-                    </p>
-                </div>
-            </div>
-
-            <div class="list-item publication" data-category="publication">
-                <a href="https://irom-lab.github.io/AdaptSim/" class="thumbnail"><img src="images/23adaptsim.png"
-                        alt="" /></a>
-                <div class="project-description">
-                    <h3><a href="https://irom-lab.github.io/AdaptSim/">AdaptSim: Task-Driven Simulation Adaptation for
-                            Sim-to-Real Transfer</a></h3>
-                    <p>
-                        Allen Z. Ren, Hongkai Dai, Benjamin Burchfiel, Anirudha Majumdar
-                        <br>
-                        <i>Conference on Robot Learning (CoRL), 2023</i><br>
-                        <a href="https://irom-lab.github.io/AdaptSim/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                        <a href="https://arxiv.org/pdf/2302.04903.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                        <a href="https://www.youtube.com/watch?v=p2msMCOFDDg">Video</a>
-                    </p>
-                </div>
-            </div>
-
-
-            <div class="list-item publication" data-category="publication">
-                <!-- <a href="https://sites.google.com/princeton.edu/sim-to-lab-to-real/home" class="thumbnail"><img src="images/22safe.png" alt="" /></a> -->
-                <a href="https://saferoboticslab.github.io/SimLabReal" class="thumbnail">
-                    <video playsinline="" muted="" autoplay="" loop="" width="180px">
-                        <source src="images/video-sim2lab2real-kitchen.mp4" type="video/mp4">
-                    </video>
-                </a>
-                <div class="project-description">
-                    <h3><a href="https://saferoboticslab.github.io/SimLabReal">Sim-to-Lab-to-Real:
-                            Safe Reinforcement Learning with Shielding and Generalization Guarantees</a></h3>
-                    <p>
-                        Kai-Chieh Hsu*, Allen Z. Ren*, Duy Phuong Nguyen, Anirudha Majumdar**, and Jaime F.
-                        Fisac**<br>*Equal contribution in alphabetical order; **Equal advising
-                        <br>
-                        <i>Artificial Intelligence Journal (AIJ), October 2022</i><br>
-                        <!-- <i>TEA Workshop, Conference on Neural Information Processing Systems (NeurIPS) 2022</i><br>
-                <i>Oral, GPL Workshop, International Conference on Learning Representations (ICLR) 2022</i><br> -->
-                        <a href="https://saferoboticslab.github.io/SimLabReal">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                        <a href="https://arxiv.org/pdf/2201.08355.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                        <a href="https://www.sciencedirect.com/science/article/abs/pii/S0004370222001515">Journal</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                        <a href="https://github.com/SafeRoboticsLab/SimLabReal">Code</a>
-                    </p>
-                </div>
-            </div>
-
-            <div class="list-item publication" data-category="publication">
-                <!-- <a href="https://arxiv.org/pdf/2206.13074.pdf" class="thumbnail"><img src="images/22lang.png" alt="" /></a> -->
-                <a href="https://irom-lab.github.io/ATLA/" class="thumbnail">
-                    <video playsinline="" muted="" autoplay="" loop="" width="180px">
-                        <source src="images/video-metalang-sweep.mp4" type="video/mp4">
-                    </video>
-                </a>
-                <div class="project-description">
-                    <h3><a href="https://irom-lab.github.io/ATLA/">Leveraging Language for Accelerated Learning of Tool
-                            Manipulation</a></h3>
-                    <p>
-                        Allen Z. Ren, Bharat Govil, Tsung-Yen Yang, Karthik Narasimhan, and Anirudha Majumdar
-                        <br>
-                        <i>Conference on Robot Learning (CoRL), 2022</i><br>
-                        <a href="https://irom-lab.github.io/ATLA/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                        <a href="https://arxiv.org/pdf/2206.13074.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                        <a href="https://www.youtube.com/watch?v=KTd6y-rf1Mk">Video</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                        <a
-                            href="https://engineering.princeton.edu/news/2022/12/21/words-prove-their-worth-teaching-tools-robots#:~:text=Exploring%20a%20new%20way%20to,using%20a%20variety%20of%20tools.">Princeton
-                            News</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                        <a
-                            href="https://www.quantamagazine.org/machines-learn-better-if-we-teach-them-the-basics-20230201/">Quanta
-                            Magazine</a>
-                    </p>
-                </div>
-            </div>
-
-            <div class="list-item publication" data-category="publication">
-                <a href="https://www.youtube.com/watch?v=KWqkH9Z-338" class="thumbnail"><img src="images/22drone.png"
-                        alt="" /></a>
-                <div class="project-description">
-                    <h3><a href="https://www.youtube.com/watch?v=KWqkH9Z-338">FlowDrone: Wind Estimation and Gust
-                            Rejection on UAVs Using Fast-Response Hot-Wire Flow Sensors</a></h3>
-                    <p>
-                        Nathaniel Simon, Allen Z. Ren, Alexander Pique, David Snyder, Daphne Barretto, Marcus Hultmark,
-                        and Anirudha Majumdar
-                        <br>
-                        <i>IEEE International Conference on Robotics and Automation, 2023</i><br>
-                        <a href="https://arxiv.org/pdf/2210.05857.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                        <a href="https://www.youtube.com/watch?v=KWqkH9Z-338">Video</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                        <a
-                            href="https://engineering.princeton.edu/news/2022/01/25/small-efficient-sensors-help-drones-fly-high-winds">Princeton
-                            News</a>
-                    </p>
-                </div>
-            </div>
-
-            <div class="list-item publication" data-category="publication">
-                <a href="https://arxiv.org/pdf/2202.05894.pdf" class="thumbnail"><img src="images/22fault.png"
-                        alt="" /></a>
-                <div class="project-description">
-                    <h3><a href="https://arxiv.org/pdf/2202.05894.pdf">Failure Prediction with Statistical Guarantees
-                            for Vision-Based Robot Control</a></h3>
-                    <p>
-                        Alec Farid, David Snyder, Allen Z. Ren, Anirudha Majumdar
-                        <br>
-                        <i>Robotics: Science and Systems (RSS), 2022</i><br>
-                        <a href="https://arxiv.org/pdf/2202.05894.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                        <a href="https://www.youtube.com/watch?v=z4UwQzTjhqo">Video</a>
-                    </p>
-                </div>
-            </div>
-
-            <div class="list-item publication" data-category="publication">
-                <a href="https://arxiv.org/pdf/2107.06353.pdf" class="thumbnail">
-                    <video playsinline="" muted="" autoplay="" loop="" width="180px">
-                        <source src="images/video-dragen-grasping.mp4" type="video/mp4">
-                    </video>
-                </a>
-                <!-- <a href="https://arxiv.org/pdf/2107.06353.pdf" class="thumbnail"><img src="images/21dragen.png" alt="" /></a> -->
-                <div class="project-description">
-                    <h3><a href="https://arxiv.org/pdf/2202.05894.pdf">Distributionally Robust Policy Learning via
-                            Adversarial Environment Generation</a></h3>
-                    <p>
-                        Allen Z. Ren, Anirudha Majumdar
-                        <br>
-                        <i>IEEE Robotics and Automation Letters (RA-L), 2022</i><br>
-                        <a href="https://arxiv.org/pdf/2107.06353.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                        <a href="https://www.youtube.com/watch?v=E_DlR18cmSY">Video</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                        <a href="https://github.com/irom-lab/DRAGEN">Code</a>
-                    </p>
-                </div>
-            </div>
-
-            <div class="list-item publication" data-category="publication">
-                <a href="https://arxiv.org/pdf/2111.08761.pdf" class="thumbnail"><img src="images/21gen.png"
-                        alt="" /></a>
-                <div class="project-description">
-                    <h3><a href="https://arxiv.org/pdf/2111.08761.pdf">Stronger Generalization Guarantees for Robot
-                            Learning by Combining Generative Models and Real-World Data</a></h3>
-                    <p>
-                        Abhinav Agarwal, Sushant Veer, Allen Z. Ren, and Anirudha Majumdar
-                        <br>
-                        <i>IEEE International Conference on Robotics and Automation, 2022</i><br>
-                        <a href="https://arxiv.org/pdf/2111.08761.pdf">PDF</a>
-                    </p>
-                </div>
-            </div>
-
-            <div class="list-item publication" data-category="publication">
-                <!-- <a href="https://www.youtube.com/watch?v=dfXyHvOTolc&t=1s" class="thumbnail"><img src="images/20pac.png" alt="" /></a> -->
-                <a href="https://www.youtube.com/watch?v=dfXyHvOTolc&t=1s" class="thumbnail">
-                    <video playsinline="" muted="" autoplay="" loop="" width="180px">
-                        <source src="images/video-imitation-pushing.mp4" type="video/mp4">
-                    </video>
-                </a>
-                <div class="project-description">
-                    <h3><a href="https://www.youtube.com/watch?v=dfXyHvOTolc&t=1s">Generalization Guarantees for
-                            Imitation Learning
-                        </a></h3>
-                    <p>
-                        Allen Z. Ren, Sushant Veer, and Anirudha Majumdar
-                        <br>
-                        <i>Conference on Robot Learning (CoRL), 2020</i><br>
-                        <a href="https://arxiv.org/pdf/2008.01913.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                        <a href="https://github.com/irom-lab/PAC-Imitation">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                        <a href="https://www.youtube.com/watch?v=nabtvOWoIlo">Video</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                        <a
-                            href="https://www.youtube.com/watch?v=dfXyHvOTolc&t=1s">Experiments</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                        <a
-                            href="https://engineering.princeton.edu/news/2020/11/17/machine-learning-guarantees-robots-performance-unknown-territory">Princeton
-                            News</a>
-                    </p>
-                </div>
-            </div>
-
-            <div class="list-item publication" data-category="publication">
-                <!-- <a href="" class="thumbnail"><img src="images/19sensor.png" alt="" width="130px"/></a> -->
-                <a href="https://www.youtube.com/watch?v=rxqQmImvoIw" class="thumbnail">
-                    <video playsinline="" muted="" autoplay="" loop="" width="180px">
-                        <source src="images/video-smart-guitar-demo.mp4" type="video/mp4">
-                    </video>
-                </a>
-                <div class="project-description">
-                    <h3><a href="https://www.youtube.com/watch?v=rxqQmImvoIw">Multi-Contact Force-Sensing Guitar for
-                            Training and Therapy
-                        </a></h3>
-                    <p>
-                        Zhiyi Ren, Chun-Cheng Hsu, Can Kocabalkanli, Khanh Nguyen, Iulian I Iordachita, Serap
-                        Bastepe-Gray, Nathan Scott
-                        <br>
-                        <i>IEEE Sensor Conference, 2019</i><br>
-                        <a href="PDF/sensor_2019.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                        <a href="https://ieeexplore.ieee.org/document/8956729">IEEE</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                        <a href="https://www.youtube.com/watch?v=rxqQmImvoIw">Video</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                        <a
-                            href="https://hub.jhu.edu/magazine/2019/summer/guitar-injury-smartguitar-serap-bastepe-gray/">JHU
-                            Magazine</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                        <a
-                            href="https://www.wusa9.com/article/news/local/dc/this-smartguitar-can-help-musicians-train-avoid-long-term-damage/65-0242c076-4a80-4a55-866a-d62211a9d8fc">WUSA9
-                            News</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                        <a href="https://jhu.technologypublisher.com/technology/36912">Patent</a>
-                    </p>
-                </div>
-            </div>
-
-            <div class="list-item publication" data-category="publication">
-                <a href="PDF/riss_2018.pdf" class="thumbnail">
-                    <video playsinline="" muted="" autoplay="" loop="" width="180px">
-                        <source src="images/video-minitaur-climb-stairs.mp4" type="video/mp4">
-                    </video>
-                </a>
-                <div class="project-description">
-                    <h3><a href="PDF/riss_2018.pdf">Toward Robust Stair Climbing of the Quadruped using Proprioceptive
-                            Sensing
-                        </a></h3>
-                    <p>
-                        Zhiyi Ren and Aaron Johnson
-                        <br>
-                        <i>CMU Robotics Institute Summer Scholars Working Papers Journal, 2018
-                        </i><br>
-                        <a href="PDF/riss_2018.pdf">PDF</a>
-                    </p>
-                    <br>
-                </div>
-            </div>
-
-            <div class="list-item publication" data-category="publication">
-                <a href="https://arxiv.org/pdf/1911.02526.pdf" class="thumbnail"><img src="images/18bb.png"
-                        alt="" /></a>
-                <div class="project-description">
-                    <h3><a href="https://arxiv.org/pdf/1911.02526.pdf">Dynamic Traversal of Large Gaps by Insects and
-                            Legged Robots Reveals a Template</a></h3>
-                    <p>
-                        Sean W. Gart, Changxin Yan, Ratan Othayoth, Zhiyi Ren and Chen Li
-                        <br>
-                        <i>Bioinspiration and Biomimetics Journal, 2018
-                        </i><br>
-                        <a href="https://arxiv.org/pdf/1911.02526.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                        <a href="https://iopscience.iop.org/article/10.1088/1748-3190/aaa2cd">Journal</a>
-                    </p>
-                </div>
-            </div>
-
-            <div class="list-item publication" data-category="publication">
-                <a href="https://meetings.aps.org/Meeting/MAR18/Session/B50.10" class="thumbnail">
-                    <video playsinline="" muted="" autoplay="" loop="" width="180px">
-                        <source src="images/video-walk-self-right.mp4" type="video/mp4">
-                    </video>
-                </a>
-                <div class="project-description">
-                    <h3><a href="https://meetings.aps.org/Meeting/MAR18/Session/B50.10">Legged Robots Change Locomotor
-                            Modes To Traverse 3-D Obstacles With Varied Stiffness</a></h3>
-                    <p>
-                        Zhiyi Ren, Ratan Othayoth, and Chen Li
-                        <br>
-                        <i>American Physics Society, Robophysics, 2018
-                        </i><br>
-                        <a href="https://meetings.aps.org/Meeting/MAR18/Session/B50.10">Abstract</a>
-                    </p>
-                </div>
-            </div>
-
-
-            <!-- Talks -->
-
-            <!-- 2024 -->
-            <div class="list-item talk" data-category="talk">
-                <p class="date">2024</p><a href="https://safeai-lab.github.io/">Safe AI Lab</a>, CMU
-            </div>
-
-            <div class="list-item talk" data-category="talk">
-                <p class="date"></p><a href="https://en.caai.cn/">CAAI Embodied AI Forum</a>
-            </div>
-
-            <!-- 2023 -->
-            <div class="list-item talk" data-category="talk">
-                <p class="date">2023</p><a href="https://www.youtube.com/watch?v=xvXrPdPb3Ko">MLBoost</a> Talk
-            </div>
-
-            <div class="list-item talk" data-category="talk">
-                <p class="date"></p><a href="https://www.bytedance.com/en/">ByteDance Robotics</a>, Beijing
-            </div>
-
-            <div class="list-item talk" data-category="talk">
-                <p class="date"></p><a href="https://research.google/locations/new-york/">Google Research</a>, NYC
-            </div>
-
-            <div class="list-item talk" data-category="talk">
-                <p class="date"></p><a href="https://www.saferobotics.org/">Safe Robotics Lab</a>, Princeton
-            </div>
-
-            <div class="list-item talk" data-category="talk">
-                <p class="date"></p><a href="https://sites.google.com/view/gbrainprinceton/home">Google Brain</a>, Princeton
-            </div>
-
-            <div class="list-item talk" data-category="talk">
-                <p class="date"></p><a href="https://apex.sjtu.edu.cn/">Apex Lab</a>, SJTU
-            </div>
-
-            <!-- 2022 -->
-            <div class="list-item talk" data-category="talk">
-                <p class="date">2022</p>Dexterous Manipulation Team, <a
-                    href="https://www.tri.global/our-work/robotics">TRI</a>
-            </div>
-
-
-            <!-- Services -->
-
-            <!-- 2020+ -->
-            <div class="list-item misc" data-category="misc">
-                <p class="date">2023</p>Co-organizer, <a href="https://sites.google.com/stanford.edu/corl2023ood">OOD Workshop</a>, CoRL
-            </div>
-
-            <div class="list-item misc" data-category="misc">
-                <p class="date">2020+</p>Co-organizer, <a href="https://robo.princeton.edu/seminar">Princeton Robotics
-                    Seminar</a>
-            </div>
-
-            <div class="list-item misc" data-category="misc">
-                <p class="date"></p>Webmaster, <a href="https://robo.princeton.edu">Robotics at Princeton</a>
-            </div>
-
-            <div class="list-item misc" data-category="misc">
-                <p class="date"></p>Reviewer, AIJ, T-RO, RA-L, NeurIPS, L4DC, CoRL, ICRA, RSS
-            </div>
-
 
             <!-- Personal -->
             <div class="list-item personal" data-category="personal">
@@ -744,7 +344,7 @@
 
         </div>
 
-        <div id="footer">Last updated: Feb 2024. Design and source code from <a href="https://andyzeng.github.io/">Andy's</a> awesome website.
+        <div id="footer">Last updated: Jul 2024. Design and source code from <a href="https://andyzeng.github.io/">Andy's</a> awesome website.
         </div>
 
         <script>
